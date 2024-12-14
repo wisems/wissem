@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init('9hCzR9i7VSQje3jbR');
+        })();
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <a href='#' class="logo"><span>Wisems.</span></a>
+        <nav class="nav-links">
+
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="theme-switch">
+                <input type="checkbox" id="theme-toggle">
+                <label for="theme-toggle" class="switch">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </label>
+            </div>
+        </nav>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <button class="visit-btn" id="github-btn">Visit Github</button>
+
+    </header>
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="img1.jpg" alt="">
+            <div class="info-box">
+                <div class="text">
+                    <h3>HI, I'm</h3>
+                    <h1>Wissem Abidi</h1>
+                    <h1 class="title-animation">Fullstack Developer</h1>
+                </div>
+                <div class="btn-group">
+                    <a href="lebenslauf.pdf" class="modern-btn" id="cv-download">Download CV</a>
+                    <a href="#contact" class="modern-btn alternate">Contact</a>
+                </div>
+                <div class="socials">
+                    <i class="fa-brands fa-github" id="github-btn"></i>
+                    <i class="fa-brands fa-linkedin" id="linkedin-btn"></i>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-container">
+            <div class="skill-block">
+                <h3>Languages</h3>
+                <ul>
+                    <li><i class="fa-brands fa-python"></i> Python</li>
+                    <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                    <li><i class="fa-brands fa-html5"></i> HTML</li>
+                    <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+                </ul>
+            </div>
+
+            <div class="skill-block">
+                <h3>Frameworks</h3>
+                <ul>
+                    <li><i class="fa-brands fa-react"></i> React</li>
+                    <li><i class="fa-brands fa-python"></i> Django</li>
+                    <li><i class="fa-brands fa-python"></i> PyQt5</li>
+                    <li><i class="fa-brands fa-bootstrap"></i> Bootstrap</li>
+                </ul>
+            </div>
+
+            <div class="skill-block">
+                <h3>Tools</h3>
+                <ul>
+                    <li><i class="fa-brands fa-git-alt"></i> Git</li>
+                    <li><i class="fa-brands fa-github"></i> GitHub</li>
+                    <li><i class="fa-solid fa-database"></i> SQL</li>
+                    <li><i class="fa-solid fa-terminal"></i> Terminal</li>
+                </ul>
+            </div>
+
+            <div class="skill-block">
+                <h3>Design</h3>
+                <ul>
+                    <li><i class="fa-brands fa-figma"></i> Figma</li>
+                    <li><i class="fa-solid fa-pen-nib"></i> UI/UX</li>
+                    <li><i class="fa-solid fa-palette"></i> Color Theory</li>
+                    <li><i class="fa-solid fa-mobile-screen"></i> Responsive Design</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="experience" class="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-info">
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-building"></i>
+                    <span>Engineering at Fuchs Lubricants Kaiserslautern </span>
+                    <h3>(02/2024 – Present)</h3>
+                    <p>• Built Django-based data analytics app
+                        • Developed PyQt5 chemical reaction simulator
+                        • Integrated Azure DevOps with Power BI</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <span>Freelance Web Development</span>
+                    <h3>(05/2024 – Present)</h3>
+                    <p>�� Custom IT solutions for small businesses
+                        • Web development and user experience design
+                        • Scalable software solutions delivery</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <span>Academic Journey</span>
+                    <h3>Bachelor's in Business Informatics Hochschule Kaiserslautern</h3>
+                    <p> (09/2021 – Present)
+                        • IT Strategy and Business Integration
+                        • Data Visualization expertise
+                        • Active participation in coding workshops</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Technical Skills</span>
+                    <h3>Core Competencies</h3>
+                    <p>• Full-stack development with React & Django
+                        • Desktop application development with PyQt5
+                        • Data analytics and visualization
+                        • UI/UX design and implementation</p>
+                </div>
+            </div>
+            <img src="img2 .jpg" alt="Experience Image">
+        </div>
+    </section>
+    </section>
+    <section id="projects" class="projects">
+        <h2 class="section-title">Recent Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="project1.jpg" alt="Portfolio Website">
+                <h3>Personal Portfolio Website</h3>
+                <p>A responsive portfolio showcasing my skills, projects, and achievements with a focus on web
+                    development and design.</p>
+                <div class="btn-group">
+                    <div class="btn demo-btn" data-demo="demo1.jpg">Live Demo</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="project2.jpg" alt="Restaurant Management System">
+                <h3>Restaurant Management System</h3>
+                <p>A system for managing restaurant operations, including order tracking, inventory, and staff
+                    scheduling.</p>
+                <div class="btn-group">
+                    <div class="btn demo-btn" data-demo="demo2.jpg">Live Demo</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="project3.jpg" alt="Restaurant Menu Application">
+                <h3>Restaurant Menu Application</h3>
+                <p>An interactive app that allows customers to browse menus and place orders easily.</p>
+                <div class="btn-group">
+                    <div class="btn demo-btn" data-demo="demo3.jpg">Live Demo</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Demo Modal -->
+        <div id="demoModal" class="demo-modal">
+            <span class="close-modal">&times;</span>
+            <img src="" alt="Demo" id="demoImage">
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info-details">
+                            <h3>Email</h3>
+                            <p>wissemss1999@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="info-details">
+                            <h3>Phone</h3>
+                            <p>+49 176 72548989</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info-details">
+                            <h3>Location</h3>
+                            <p>Kaiserslautern, Germany</p>
+                        </div>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <div class="input-group">
+                        <input type="text" name="user_name" id="name" placeholder="Your Name" required>
+                        <input type="email" name="user_email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                    <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">© 2024 Wisems. All rights reserved.
+            Unauthorized use or duplication of any content on this website without express and written permission from
+            the owner is strictly prohibited.</p>
+
+    </footer>
+
+
+
+
+
+    <script src="scripts.js"> </script>
+</body>
+
+</html>
